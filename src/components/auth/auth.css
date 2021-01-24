@@ -1,0 +1,41 @@
+
+.interactive-bg {
+    height: 100vh;
+   
+    padding: 0px;
+    background-image: url(https://s3.amazonaws.com/site.vidalink.com.br/uploads/2019/08/bg-block-rh40.jpg);
+    background-position: top right -200px;
+    background-size: cover;
+    background-color: rgba(2, 158, 135, 1);
+    -webkit-box-shadow: inset 24px 4px 64px -24px rgba(71,71,71,1);
+    -moz-box-shadow: inset 24px 4px 64px -24px rgba(71,71,71,1);
+    box-shadow: inset 24px 4px 64px -24px rgba(71,71,71,1);
+    background-blend-mode: screen ;
+  }
+  @media (max-width: 769px) {
+    .interactive-bg{
+      display: none
+    }
+  }
+  
+  .input {
+    border-radius: 50px;
+  }
+  
+  .button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    min-width: 150px;
+  }
+  
+  .login-logo {
+    margin: 0 auto;
+    margin-bottom: 50px;
+    max-height: 100px;
+  
+  }
+  
+  .columns{
+    margin: 0px;
+  }
+  

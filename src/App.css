@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.notification {
+    padding: 1.30rem!important
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .notification.table__mobile {
+    overflow-x: auto!important;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .footer {
+    margin-top: 50px;
   }
+  
+  .table tbody {
+    font-size: .9em;
+  }
+  
+  .table tbody button {
+    font-size: 1em;
+  }
+  
+  .progress {
+    height: .3rem!important;
+  }
+
+  section.hero {
+    margin-top: 92px;
+  }
+
+  .is-divider[data-content]::after, .is-divider-vertical[data-content]::after {
+    font-size: .9rem!important;
+    transform: translateY(-1.23rem)!important;
+  }
+
+  .button .icon:first-child:last-child {
+    margin-left: calc(-0.375em - 1px);
+    margin-right: calc(.15em - 1px)!important;
 }
+
+  div.is-divider-p[data-content]::after, .is-divider-vertical-p[data-content]::after {
+    font-size: .75rem!important;
+    transform: translateY(-1.23rem)!important;
+  }
+
+  button.icon--button {
+    height: 44px!important;
+    min-width: 65px!important;
+  }
+
+  button.icon--button i.edit--custom {
+    margin-left: 7px;
+  }
+
+ div.navbar-end > a.navbar-item:hover {
+    background-color: transparent!important;
+  }
+
+  .navbar.is-light .navbar-end .navbar-link::after {
+    border-color: #00d1b2!important;
+  }
+
+  @media(max-width: 1024px) {
+    nav.breadcrumb {
+      margin-left: 1.4rem;
+    }
+    .notification.table__mobile {
+      padding-left: 0px!important;
+    }
+
+    section.hero {
+      margin-top: 52px;
+    }
+  } 
